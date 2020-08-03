@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="SkyfallerBase">
     <defName>SlagScatter</defName>
     <label>ship debris (incoming)</label>
-		<thingClass>DropPodIncoming</thingClass>
+    <thingClass>DropPodIncoming</thingClass>
     <graphicData>
       <texPath>Things/Sterile_slag</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -17,10 +16,8 @@
       <explosionRadius>1</explosionRadius>
       <explosionDamage>Bomb</explosionDamage>
       <explosionDamageFactor>0.25</explosionDamageFactor>
-	  <cameraShake>1</cameraShake>
+      <cameraShake>1</cameraShake>
       <motesPerCell>0</motesPerCell>
     </skyfaller>
   </ThingDef>
-
-	
 </Defs>

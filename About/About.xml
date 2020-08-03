@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ModMetaData>
   <name>Slag Refined Plus (Continued)</name>
-  	<packageId>Mlie.SlagRefinedPlus</packageId>
-	<author>Enrak</author>
-	<url>https://github.com/emipa606/SlagRefinedPlus</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Honey Badgers mod for RimWorld 1.1
+  <packageId>Mlie.SlagRefinedPlus</packageId>
+  <author>Enrak</author>
+  <url>https://github.com/emipa606/SlagRefinedPlus</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Enraks mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1506295886
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]

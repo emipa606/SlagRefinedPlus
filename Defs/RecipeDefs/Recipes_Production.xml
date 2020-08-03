@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
   <RecipeDef>
     <defName>ExtractMetalFromSlag</defName>
     <label>smelt metal from slag</label>
@@ -12,31 +9,29 @@
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
-		<specialProducts>
-			<li>Smelted</li>
-		</specialProducts>
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
             <li>ChunkSlagSteel</li>
-			<li>ChunkSlagSterile</li>
-			<li>ChunkSlagPlasteel</li>
-			<li>ChunkSlagGold</li>
+            <li>ChunkSlagSterile</li>
+            <li>ChunkSlagPlasteel</li>
+            <li>ChunkSlagGold</li>
           </thingDefs>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-          <thingDefs>
-            <li>ChunkSlagSteel</li>
-			<li>ChunkSlagSterile</li>
-			<li>ChunkSlagPlasteel</li>
-			<li>ChunkSlagGold</li>
-          </thingDefs>
+      <thingDefs>
+        <li>ChunkSlagSteel</li>
+        <li>ChunkSlagSterile</li>
+        <li>ChunkSlagPlasteel</li>
+        <li>ChunkSlagGold</li>
+      </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  
-
 </Defs>
