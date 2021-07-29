@@ -1,28 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="ChunkBase">
-    <defName>ChunkSlagSteel</defName>
-    <label>steel slag chunk</label>
-    <description>A chunk of steel slag. While it's useless in its current form, it can be smelted to recover steel.</description>
-    <graphicData>
-      <texPath>Things/Item/Chunk/ChunkSlag</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>5</Mass>
-    </statBases>
-    <soundDrop>ChunkSlag_Drop</soundDrop>
-    <thingCategories>
-      <li>Chunks</li>
-    </thingCategories>
-    <smeltProducts>
-      <Steel>30</Steel>
-    </smeltProducts>
-  </ThingDef>
-  <ThingDef ParentName="ChunkBase">
     <defName>ChunkSlagSterile</defName>
     <label>sterile slag chunk</label>
-    <description>A chunk of slag that appears to be from a sterile compartment of a ship. While it's useless in its current form, it can be smelted to recover silver and steel.</description>
+    <description>A chunk of slag that appears to be from a sterile compartment of a ship. While it's useless in its current form, it can be smelted to recover silver.</description>
     <graphicData>
       <texPath>Things/Sterile_slag</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -35,15 +16,13 @@
       <li>Chunks</li>
     </thingCategories>
     <smeltProducts>
-      <Steel>15</Steel>
-      <Silver>60</Silver>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Silver>75</Silver>
     </smeltProducts>
   </ThingDef>
   <ThingDef ParentName="ChunkBase">
     <defName>ChunkSlagGold</defName>
     <label>luxury slag chunk</label>
-    <description>A chunk of slag that appears to be from some luxury compartment of a ship. While it's useless in its current form, it can be smelted to recover gold and steel.</description>
+    <description>A chunk of slag that appears to be from some luxury compartment of a ship. While it's useless in its current form, it can be smelted to recover gold.</description>
     <graphicData>
       <texPath>Things/Gold_slag</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -56,9 +35,7 @@
       <li>Chunks</li>
     </thingCategories>
     <smeltProducts>
-      <Gold>60</Gold>
-      <Steel>15</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Gold>75</Gold>
     </smeltProducts>
   </ThingDef>
   <ThingDef ParentName="ChunkBase">
@@ -77,8 +54,7 @@
       <li>Chunks</li>
     </thingCategories>
     <smeltProducts>
-      <Plasteel>30</Plasteel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Plasteel>15</Plasteel>
     </smeltProducts>
   </ThingDef>
 </Defs>

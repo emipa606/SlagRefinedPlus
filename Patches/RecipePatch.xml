@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName = "ExtractMetalFromSlag"]/ingredients/li/filter/thingDefs</xpath>
+    <value>
+      <li>ChunkSlagSterile</li>
+      <li>ChunkSlagPlasteel</li>
+      <li>ChunkSlagGold</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName = "ExtractMetalFromSlag"]/fixedIngredientFilter/thingDefs</xpath>
+    <value>
+      <li>ChunkSlagSterile</li>
+      <li>ChunkSlagPlasteel</li>
+      <li>ChunkSlagGold</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName = "ExtractMetalFromSlag"]</xpath>
+    <value>
+      <specialProducts>
+        <li>Smelted</li>
+      </specialProducts>
+    </value>
+  </Operation>
+</Patch>

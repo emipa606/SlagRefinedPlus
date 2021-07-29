@@ -1,5 +1,8 @@
 # Changelog for SlagRefinedPlus
 
+1.0.4.0 - Rebalanced to reflect vanilla, replaced overwrites with patch. Thanks Thels for the info!
+
+
 1.0.3.0 - Rebuild on the 1.3 binaries as some functions changed from the beta
 
 
