@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkSlagSterile</defName>
+    <label>sterile slag chunk</label>
+    <description>A chunk of slag that appears to be from a sterile compartment of a ship. While it's useless in its current form, it can be smelted to recover silver.</description>
+    <graphicData>
+      <texPath>Things/Sterile_slag</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltProducts>
+      <Silver>75</Silver>
+    </smeltProducts>
+    <smeltable>true</smeltable>
+  </ThingDef>
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkSlagGold</defName>
+    <label>luxury slag chunk</label>
+    <description>A chunk of slag that appears to be from some luxury compartment of a ship. While it's useless in its current form, it can be smelted to recover gold.</description>
+    <graphicData>
+      <texPath>Things/Gold_slag</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltProducts>
+      <Gold>75</Gold>
+    </smeltProducts>
+    <smeltable>true</smeltable>
+  </ThingDef>
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkSlagPlasteel</defName>
+    <label>plasteel slag chunk</label>
+    <description>A chunk of plasteel slag. While it's useless in its current form, it can be smelted to recover plasteel.</description>
+    <graphicData>
+      <texPath>Things/Plasteel_slag</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltProducts>
+      <Plasteel>15</Plasteel>
+    </smeltProducts>
+    <smeltable>true</smeltable>
+  </ThingDef>
+</Defs>
