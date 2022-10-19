@@ -1,12 +1,9 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 
-namespace SlagRefinedPlus
+namespace SlagRefinedPlus;
+
+public class ActiveSlagPodDef : ThingDef
 {
-    // Token: 0x02000005 RID: 5
-    public class ActiveSlagPodDef : ThingDef
-    {
-        // Token: 0x04000003 RID: 3
-        public ThingSetMakerDef slagpodContents = null;
-    }
+    public ThingSetMakerDef slagpodContents = null;
 }
