@@ -7,7 +7,7 @@ namespace SlagRefinedPlus;
 
 public static class SlagPodUtility
 {
-    private static readonly List<List<Thing>> tempList = new List<List<Thing>>();
+    private static readonly List<List<Thing>> tempList = [];
 
     public static void MakeDropPodAt(IntVec3 c, Map map, ActiveDropPodInfo info)
     {

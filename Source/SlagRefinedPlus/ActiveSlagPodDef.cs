@@ -5,5 +5,5 @@ namespace SlagRefinedPlus;
 
 public class ActiveSlagPodDef : ThingDef
 {
-    public ThingSetMakerDef slagpodContents = null;
+    public readonly ThingSetMakerDef slagpodContents = null;
 }
