@@ -11,14 +11,31 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
-  <modDependencies />
-  <loadAfter />
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Enraks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1506295886
 
 - Rebalanced to reflect vanilla values, thanks Thels for the report!
+[list]
+[*] Workspeed 1600 for all four recipes.
+[*] Steel chunk: 15 steel (no components)
+[*] Plasteel chunk: 15 plasteel (no components)
+[*] Silver chunk: 5 steel, 50 silver (no components)
+[*] Gold chunk: 5 steel, 50 gold (no components)
+[/list]
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -46,12 +63,12 @@ I wanted to make sure that everything added was "justifiable" and balanced so th
 (Please note that while I believe this version is stable there may be some issues that I have not come across yet, I apologize for any inconvience.)
 
 -Actual Changes Made-
-* Smelting Steel Slag produces 30 steel.
+[strike]* Smelting Steel Slag produces 30 steel.
 * Added Sterile Slag, produces 60 silver, 15 steel and 1 component.
 * Added Luxury Slag, produces 60 gold, 15 steel and 1 component.
 * Added Plasteel Slag, produces 30 plasteel and 1 component.
 * Created new event "Slag Debris" (don't stand under it...).
-* The work amount is reduced to 800, reducing the time it takes to smelt slag. (Originally 1600)
+* The work amount is reduced to 800, reducing the time it takes to smelt slag. (Originally 1600)[/strike]
 
 -Should not break saves-
 However, if you are starting with an existing colony this will break the Bill in the smelter if you already have one selected. You simply have to remove the slag smelting bill and add it again.
@@ -73,9 +90,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1503350522
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2042702936][img]https://img.shields.io/github/v/release/emipa606/SlagRefinedPlus?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/SlagRefinedPlus</modIconPath>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2042702936][img]https://img.shields.io/github/v/release/emipa606/SlagRefinedPlus?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  smelting enhancements</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

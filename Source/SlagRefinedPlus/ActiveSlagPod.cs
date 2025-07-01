@@ -2,4 +2,4 @@ using RimWorld;
 
 namespace SlagRefinedPlus;
 
-public class ActiveSlagPod : ActiveDropPod;
+public class ActiveSlagPod : ActiveTransporter;

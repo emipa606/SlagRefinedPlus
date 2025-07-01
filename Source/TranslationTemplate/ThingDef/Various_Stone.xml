@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: luxury slag chunk -->
+  <ChunkSlagGold.label>luxury slag chunk</ChunkSlagGold.label>
+  <!-- EN: A chunk of slag that appears to be from some luxury compartment of a ship. While it's useless in its current form, it can be smelted to recover gold. -->
+  <ChunkSlagGold.description>A chunk of slag that appears to be from some luxury compartment of a ship. While it's useless in its current form, it can be smelted to recover gold.</ChunkSlagGold.description>
+  <!-- EN: plasteel slag chunk -->
+  <ChunkSlagPlasteel.label>plasteel slag chunk</ChunkSlagPlasteel.label>
+  <!-- EN: A chunk of plasteel slag. While it's useless in its current form, it can be smelted to recover plasteel. -->
+  <ChunkSlagPlasteel.description>A chunk of plasteel slag. While it's useless in its current form, it can be smelted to recover plasteel.</ChunkSlagPlasteel.description>
+  <!-- EN: sterile slag chunk -->
+  <ChunkSlagSterile.label>sterile slag chunk</ChunkSlagSterile.label>
+  <!-- EN: A chunk of slag that appears to be from a sterile compartment of a ship. While it's useless in its current form, it can be smelted to recover silver. -->
+  <ChunkSlagSterile.description>A chunk of slag that appears to be from a sterile compartment of a ship. While it's useless in its current form, it can be smelted to recover silver.</ChunkSlagSterile.description>
+</LanguageData>
