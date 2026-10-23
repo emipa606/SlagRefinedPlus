@@ -3,4 +3,25 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="SlagRefinedPlus/SlagRefinedPlus.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/Incidents_SlagScatter.xml" />
+    <File Path="../1.7/Defs/Skyfallers_SlagScatter.xml" />
+    <File Path="../1.7/Defs/Things_Slagpod.xml" />
+    <File Path="../1.7/Defs/ThingSetMakers_SlagScatter.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/RecipePatch.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Incidents.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Various_Stone.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>
